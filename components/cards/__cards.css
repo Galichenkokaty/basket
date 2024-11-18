@@ -1,0 +1,104 @@
+.card__thumb{
+    width: 6.25rem;
+}
+
+.card__thumb picture{
+    padding-bottom: 100%;
+}
+
+.card__info{
+    max-width: 16.4375rem;
+    gap: .375rem;
+}
+
+.card__info_title{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.45rem;
+}
+
+.card__info_desc{
+    font-size: .75rem;
+    font-weight: 500;
+    line-height: 1.0875rem;
+}
+
+.card__info_article{
+    font-size: .875rem;
+    font-weight: 500;
+    color: var(--color__text-gray);
+    line-height: 1.3125rem;
+}
+
+.card{
+    padding: 0 0 1.3125rem 1rem;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.card__content{
+    gap: 2rem;
+}
+
+.card:last-child{
+    border-bottom: none;
+}
+
+.card__count_btn{
+    background-color: var(--color__fill-2);
+    height: 2.125rem;
+    width: 2.125rem;
+    transition: all .24s ease-in-out;
+}
+
+.card__count_btn:hover{
+    background-color: var(--color__fill-2-h);
+}
+
+.card__count_btn-thumb{
+    width: 0.5rem;
+}
+.card__count_btn-thumb span{
+    padding-top: 100%;
+}
+
+.card__count_input{
+    width: 2.125rem;
+    height: 2.125rem;
+    background-color: var(--color__fill-2);
+    margin: 0 2px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.card__count{
+    height: 2.125rem;
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.card__price{
+    font-weight: 500;
+    font-size: 1.125rem;
+    min-width: 4.375rem;
+}
+
+.card__delete_thumb{
+    width: 0.75rem;
+    align-self: start;
+}
+
+.card__delete_thumb span{
+    padding-top: 100%;
+}
+
+.card__price_min{
+    font-size: 0.75rem;
+    font-weight: 500;
+    position: absolute;
+    bottom: -1.5rem;
+}
+
+.card__count-block{
+    justify-items: center;
+    position: relative;
+}

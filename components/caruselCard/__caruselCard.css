@@ -1,0 +1,129 @@
+.carusel-card{
+    width: 100%;
+    max-width: 100%;
+}
+
+.carusel-card__wrap{
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 2.8125rem;
+    gap: 3rem;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    position: unset !important;
+    min-width: 3.125rem !important;
+    height: 3.125rem !important;
+    background-color: var(--color__fill-3);
+    border-radius: 50%;
+    margin-top: unset !important;
+}
+
+.carusel-card__wrap .swiper-button-prev:after, .carusel-card__wrap .swiper-button-next:after{
+    content: '' !important;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='10' height='20' viewBox='0 0 10 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M9 19L1 10L9 0.999999' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e ");
+    background-size: .5rem 1.125rem;
+    width: .5rem;
+    height: 1.125rem;
+}
+.carusel-card__wrap .swiper-button-next:after{
+    transform: rotate(180deg);
+}
+
+.swiper-pagination{
+    position: unset !important;
+    font-size: 1rem;
+}
+
+.swiper-pagination-current{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.carusel-card__title{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.carusel-card__head{
+    height: 3.125rem;
+}
+
+.swiper_nav{
+    height: 100%;
+    flex-wrap: nowrap;
+    width: fit-content;
+    gap: 1rem;
+}
+
+.carusel-card__slide{
+    background-color: var(--color__fill-2);
+    padding: 1.5rem;
+    min-height: 35.1875rem;
+    max-width: 19.5rem;
+}
+
+.carusel-card__content{
+    height: 100%;
+}
+
+.carusel-card__thumb{
+    width: 15.3125rem;
+    max-height: 15.3125rem;
+}
+.carusel-card__thumb picture{
+    padding-top: 100%;
+}
+
+.carusel-card__info_title{
+    font-size: 1.375rem;
+}
+
+.carusel-card__info_desc{
+    font-size: .875rem;
+    font-weight: 500;
+}
+
+.carusel-card__text{
+    gap: .625rem;
+}
+
+.carusel-card__info{
+    width: 100%;
+}
+
+.carusel-card__btn{
+    background-color: var(--color__fill-1);
+    border: 1px solid var(--color__fill-1);
+    width: 100%;
+    padding: 1rem 0;
+    color: white;
+    font-weight: 500;
+}
+
+.carusel-card__btn:hover{
+    background-color: white;
+    border: 1px solid var(--color__fill-1);
+    color: var(--color__fill-1);
+}
+
+.carusel-card__botton{
+    width: 100%;
+    gap: 1.25rem
+}
+
+.carusel-card__price{
+    gap: .25rem;
+}
+
+.carusel-card__price_ru{
+    font-size: 1.375rem;
+    font-weight: 500;
+}
+
+.carusel-card__price_eu{
+    font-size: 1rem;
+    color: var(--color__text_gray);
+}

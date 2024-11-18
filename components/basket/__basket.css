@@ -1,0 +1,220 @@
+.basket{
+    margin-top: 1.875rem;
+    gap: 3.125rem;
+    width: 100%;
+    max-width: 100%;
+}
+
+.basket__content{
+    grid-template-columns: 2fr 1fr;
+    gap: 3.8125rem;
+}
+
+.basket__header_title{
+    font-size: 2.75rem;
+    font-weight: 700;
+    line-height: 3.3125rem;
+}
+
+.basket__header_count{
+    font-size: 1.125rem;
+    line-height: 2.0625rem;
+    text-align: start;
+    font-weight: 500;
+    color: var(--color__text-gray);
+}
+
+.basket__header_info{
+    gap: 1.375rem;
+}
+
+.basket__header_btn{
+    text-decoration: underline;
+    font-weight: 500;
+    line-height: 2.0625rem;
+    color: var(--color__text-gray);
+    transition: all .24s ease-in-out;
+}
+
+.basket__header_btn:hover{
+    color: var(--color__dark);
+}
+
+.basket__content_cards{
+    gap: 1.5625rem;
+    height: fit-content;
+}
+
+.basket_install{
+    background-color: var(--color__fill-2);
+    width: 100%;
+    padding: 1.625rem;
+    gap: 1.25rem;
+}
+
+.basket_install_content{
+    gap: 1.25rem;
+}
+
+.basket_install_content-thumb{
+    width: 1.875rem;
+}
+
+.basket_install_content-thumb span{
+    padding-top: 100%;
+}
+
+.basket_install_content-icon{
+    background-color: white;
+    padding: 0.625rem;
+    border-radius: 0.25rem;
+}
+
+.basket_install_content-title{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.45rem;
+    color: var(--color__dark);
+}
+
+.basket_install_content-text{
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.3125rem;
+    color: var(--color__text-gray);
+}
+
+.basket_install_checkbox{
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 1px solid var(--color__text-gray);
+    border-radius: 0.125rem;
+}
+
+.summary-panel{
+    padding: 2.1875rem 1.875rem;
+    background-color: var(--color__fill-2);
+    border-radius: 0.3125rem;
+    height: fit-content;
+}
+
+.summary-panel__title{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.summary-panel__content-items{
+    gap: 1rem;
+    padding-bottom: 1.75rem;
+    border-bottom: 1px solid var(--color__text-gray);
+}
+
+.summary-panel__content-title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.summary-panel__content-result .summary-panel__content-title{
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.summary-panel__content-result .summary-panel__content-info{
+    font-size: 1.625rem;
+    font-weight: 700;
+}
+
+.summary-panel__content-info{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.summary-panel__content{
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.summary-panel__content-info span{
+    font-weight: 600 !important;
+}
+
+.summary-panel__btn{
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    font-weight: 600;
+    padding: 0.875rem 0;
+    width: 100%;
+    color: white;
+    background-color: var(--color__fill-1);
+    margin-top: 1.875rem;
+    border: 1px solid var(--color__fill-1);
+    border-radius: .25rem;
+}
+
+.summary-panel__btn:hover{
+    color: var(--color__fill-1);
+    background-color: white;
+}
+
+.summary-panel__btn.--one-click{
+    color: var(--color__fill-1);
+    background-color: white;
+    margin-top: .75rem;
+}
+
+.summary-panel__btn.--one-click:hover{
+    color: white;
+    background-color: var(--color__fill-1);
+}
+
+.basket__content_empty{
+    font-size: 2rem;
+    color: var(--color__text-gray);
+    text-align: center;
+    font-weight: 500;
+    height: 10rem;
+}
+
+.mini-card-basket__icon{
+    width: 2rem;
+}
+
+.mini-card-basket__icon span{
+    padding: 100%;
+}
+
+.mini-card-basket__wrap{
+    width: fit-content;
+    justify-self: right;
+}
+
+.mini-card-basket__wrap{
+    gap: .625rem;
+}
+
+.mini-card-basket__title{
+    font-size: .875rem;
+    line-height: 1.375rem;
+    font-weight: 500;
+}
+
+.mini-card-basket__product{
+    font-size: .75rem;
+    color: var(--color__text-gray);
+    font-weight: 500;
+    line-height: 1.1rem;
+}
+
+.mini-card-basket__price{
+    font-size: .75rem;
+    line-height: 1.1rem;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 990px){
+    .basket__content{
+        display: flex;
+        flex-direction: column
+    }
+}
